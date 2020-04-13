@@ -5,7 +5,9 @@
 .dark{
   background-color:darkblue;
 }
-
+.hidden{
+  display:none;
+}
 
 body{
     height: 100vh;
@@ -113,8 +115,13 @@ p{
   .header__subtitle{
       margin-right:10px;
       color:lightgoldenrodyellow;
-      font-size: 18px;
+      font-size: 24px;
   }
+  .header__subtitle2{
+    margin-right:10px;
+    color:darkorange;
+    font-size: 24px;
+}
   .sun img{
     display: block;
     margin-left: auto;
