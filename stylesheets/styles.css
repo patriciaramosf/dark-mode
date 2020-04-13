@@ -2,11 +2,16 @@
    
     box-sizing: border-box;
 }
+.dark{
+  background-color:darkblue;
+}
+
+
 body{
-    background-color: lightskyblue;
     height: 100vh;
-    background-size: cover;
     font-family: 'Baloo Tamma 2', cursive;
+    background-color: lightskyblue;
+    
 }
 h1{
     margin:0;
