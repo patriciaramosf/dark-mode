@@ -1,8 +1,18 @@
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 *{
    
     box-sizing: border-box;
 }
 .dark{
+  transition:1.5s;
   background-color:darkblue;
 }
 .hidden{
@@ -126,21 +136,25 @@ p{
 .sky{
  position: relative;
 }
-  .sun{
+  .sunimg{
     width:300px;
     height:300px;
     position:absolute;
     left:50%;
     margin-left: -150px;
-    top:50%;
+    top:200px;
+    animation-name: rotate;
+    animation-duration: 35s;
+    animation-iteration-count: infinite;
+
 }
-.flexo{
+.flexoimg{
     width:300px;
     height:300px;
     position:absolute;
     left:50%;
     margin-left: -150px;
-    top:50%;
+    top:200px;
    
 }
 .disappear{
