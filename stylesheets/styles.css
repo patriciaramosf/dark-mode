@@ -113,12 +113,12 @@ p{
     font-weight: bold;
   }
   .header__subtitle{
-      margin-right:10px;
+      margin-right:30px;
       color:lightgoldenrodyellow;
       font-size: 24px;
   }
   .header__subtitle2{
-    margin-right:10px;
+    margin-right:30px;
     color:darkorange;
     font-size: 24px;
 }
