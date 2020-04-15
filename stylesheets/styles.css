@@ -6,17 +6,29 @@
     transform: rotate(360deg);
   }
 }
-
-*{
-   
-    box-sizing: border-box;
-}
 .dark{
   transition:1.5s;
   background-color:darkblue;
 }
 .hidden{
   display:none;
+}
+.orange{
+  color:darkorange;
+}
+.yellow{
+  color:lightgoldenrodyellow;
+}
+.disappear{
+  transform: scale(0);
+}
+.apper{
+  transform: scale(1)
+}
+
+*{
+   
+    box-sizing: border-box;
 }
 
 body{
@@ -69,7 +81,7 @@ p{
    /* la bolita*/
   .slider:before {
     position: absolute;
-    content: ""; /* no entiendo esto */
+    content: ""; /* investigar*/
     height: 26px;
     width: 26px;
     left: 4px;
@@ -125,14 +137,8 @@ p{
   }
   .header__subtitle{
       margin-right:30px;
-      color:lightgoldenrodyellow;
       font-size: 24px;
   }
-  .header__subtitle2{
-    margin-right:30px;
-    color:darkorange;
-    font-size: 24px;
-}
 .sky{
  position: relative;
 }
@@ -156,10 +162,4 @@ p{
     margin-left: -150px;
     top:200px;
    
-}
-.disappear{
-  transform: scale(0);
-}
-.apper{
-  transform: scale(1)
 }
