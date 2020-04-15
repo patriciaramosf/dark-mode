@@ -18,7 +18,7 @@ const changeElements =()=>{
         flexo.classList.remove('disappear')
     }else{
         winterText.classList.add('hidden')
-        flexo.classList.add('disappear')
+       flexo.classList.add('disappear')
        sun.classList.remove('disappear')
     }
 }
